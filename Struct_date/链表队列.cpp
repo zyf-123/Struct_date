@@ -59,6 +59,6 @@ int main(void)
 
 	in(x,i);
 	
-	while(cout << out(x));//shanchuzhehang
+	while(cout << out(x));//修改这个地方
 }
 #endif
