@@ -1,3 +1,4 @@
+#if 0
 #include<iostream>
 using namespace std;
 struct	Node
@@ -25,7 +26,7 @@ int m()
 	}
 	return 0;
 }
-#if 0
+
 int weichafa()
 {
 	Node *phead, *pnew, *pend;

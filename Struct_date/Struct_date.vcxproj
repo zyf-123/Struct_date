@@ -142,8 +142,12 @@
     <ClCompile Include="双端链表.cpp" />
     <ClCompile Include="栈回溯法迷宫.cpp" />
     <ClCompile Include="栈的括号匹配问题.cpp" />
+    <ClCompile Include="线性表转置（顺序表和链表结构）.cpp" />
+    <ClCompile Include="链表队列.cpp" />
     <ClCompile Include="顺序栈.cpp" />
     <ClCompile Include="链表.cpp" />
+    <ClCompile Include="顺序表插入.cpp" />
+    <ClCompile Include="顺序队列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

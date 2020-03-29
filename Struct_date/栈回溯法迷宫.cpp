@@ -1,4 +1,4 @@
-
+#if 0;
 #include<iostream>
 
 using namespace std;
@@ -108,6 +108,4 @@ void road(stack* s)//反向打印路径
 		s->p--;
 	}
 }
-
-
-
+#endif
