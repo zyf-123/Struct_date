@@ -45,5 +45,14 @@
     <ClCompile Include="链表队列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="bf匹配模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
