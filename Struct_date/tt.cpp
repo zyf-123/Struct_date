@@ -9,9 +9,10 @@ int cp(string s, string t)
 		return 0;
 	return 1;
 }
-int main(void)
+int maini(void)
 {
 	string s = "1234";
 	string t = "1234";
 	cout << cp(s, t);
+	return 0;
 }

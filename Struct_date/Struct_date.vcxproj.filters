@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\练习">
+      <UniqueIdentifier>{81780741-6115-4d83-ac7a-b0d15cffe7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习\蓝桥杯">
+      <UniqueIdentifier>{ff53e461-a1c5-4f5d-bcd5-65876c19893f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习\蓝桥杯\基础题">
+      <UniqueIdentifier>{688bc379-2ddc-467f-8cae-abb765fb16f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习\test">
+      <UniqueIdentifier>{ea610935-fbb1-4a2a-8418-4a7f23e46a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习\蓝桥杯\百校联赛">
+      <UniqueIdentifier>{0b44d302-db74-4327-a0f5-9549889e6c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习\蓝桥杯\训练题">
+      <UniqueIdentifier>{c5bd02f5-ff41-4c7e-af9a-ef3de992c348}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="链表.cpp">
@@ -54,5 +72,138 @@
     <ClCompile Include="tt.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="银行家算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="yhj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algorithm\33_exercise\1.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="7.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="8.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="9.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="10.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="11.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="12.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="13未做完.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="lq回文数.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq判断闰年.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq特殊的数字.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq特殊回文数.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq杨辉三角.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="交换ab变量的三种方法.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="冒泡(lq数组排序).cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq查找整数.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq数列特征.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq字母图形.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="lq01字串.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>源文件\练习\test</Filter>
+    </ClCompile>
+    <ClCompile Include="1q10转换16进制.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="购物单.cpp">
+      <Filter>源文件\练习\蓝桥杯\百校联赛</Filter>
+    </ClCompile>
+    <ClCompile Include="找素数.cpp">
+      <Filter>源文件\练习\蓝桥杯\百校联赛</Filter>
+    </ClCompile>
+    <ClCompile Include="素数数列.cpp">
+      <Filter>源文件\练习\蓝桥杯\百校联赛</Filter>
+    </ClCompile>
+    <ClCompile Include="承压计算.cpp">
+      <Filter>源文件\练习\蓝桥杯\百校联赛</Filter>
+    </ClCompile>
+    <ClCompile Include="分割方格.cpp">
+      <Filter>源文件\练习\蓝桥杯\百校联赛</Filter>
+    </ClCompile>
+    <ClCompile Include=".cpp">
+      <Filter>源文件\练习\蓝桥杯\百校联赛</Filter>
+    </ClCompile>
+    <ClCompile Include="16进制转10进制.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="16进制转8.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="16转2后转8.cpp">
+      <Filter>源文件\练习\蓝桥杯\基础题</Filter>
+    </ClCompile>
+    <ClCompile Include="印章.cpp">
+      <Filter>源文件\练习\蓝桥杯\训练题</Filter>
+    </ClCompile>
+    <ClCompile Include="2转10.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="10转2.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Struct_date.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

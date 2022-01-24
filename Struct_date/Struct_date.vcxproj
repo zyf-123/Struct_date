@@ -138,19 +138,66 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\algorithm\33_exercise\1.cpp" />
+    <ClCompile Include="1.1.cpp" />
+    <ClCompile Include="1.cpp" />
+    <ClCompile Include="10.cpp" />
+    <ClCompile Include="10转2.cpp" />
+    <ClCompile Include="11.cpp" />
+    <ClCompile Include="12.cpp" />
+    <ClCompile Include="13未做完.cpp" />
+    <ClCompile Include="16转2后转8.cpp" />
+    <ClCompile Include="16进制转10进制.cpp" />
+    <ClCompile Include="16进制转8.cpp" />
+    <ClCompile Include="1q10转换16进制.cpp" />
+    <ClCompile Include="2.cpp" />
+    <ClCompile Include="2转10.cpp" />
+    <ClCompile Include="3.cpp" />
+    <ClCompile Include="4.cpp" />
+    <ClCompile Include="5.cpp" />
+    <ClCompile Include="6.cpp" />
+    <ClCompile Include="7.cpp" />
+    <ClCompile Include="8.cpp" />
+    <ClCompile Include="9.cpp" />
     <ClCompile Include="bf匹配模式.cpp" />
     <ClCompile Include="kmp.cpp" />
+    <ClCompile Include="lq01字串.cpp" />
+    <ClCompile Include="lq判断闰年.cpp" />
+    <ClCompile Include="lq回文数.cpp" />
+    <ClCompile Include="lq字母图形.cpp" />
+    <ClCompile Include="lq数列特征.cpp" />
+    <ClCompile Include="lq杨辉三角.cpp" />
+    <ClCompile Include="lq查找整数.cpp" />
+    <ClCompile Include="lq特殊回文数.cpp" />
+    <ClCompile Include="lq特殊的数字.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="tt.cpp" />
+    <ClCompile Include="交换ab变量的三种方法.cpp" />
+    <ClCompile Include="yhj.cpp" />
+    <ClCompile Include="冒泡(lq数组排序).cpp" />
+    <ClCompile Include="分割方格.cpp" />
+    <ClCompile Include="印章.cpp" />
     <ClCompile Include="双端链表.cpp" />
     <ClCompile Include="栈回溯法迷宫.cpp" />
     <ClCompile Include="栈的括号匹配问题.cpp" />
+    <ClCompile Include="找素数.cpp" />
+    <ClCompile Include="承压计算.cpp" />
+    <ClCompile Include=".cpp" />
+    <ClCompile Include="素数数列.cpp" />
     <ClCompile Include="线性表转置（顺序表和链表结构）.cpp" />
+    <ClCompile Include="购物单.cpp" />
+    <ClCompile Include="银行家算法.cpp" />
     <ClCompile Include="链表队列.cpp" />
     <ClCompile Include="顺序栈.cpp" />
     <ClCompile Include="链表.cpp" />
     <ClCompile Include="顺序表插入.cpp" />
     <ClCompile Include="顺序队列.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Struct_date.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
