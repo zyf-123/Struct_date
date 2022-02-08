@@ -177,6 +177,7 @@
     <ClCompile Include="冒泡(lq数组排序).cpp" />
     <ClCompile Include="分割方格.cpp" />
     <ClCompile Include="动态数组.cpp" />
+    <ClCompile Include="单项链表再次实现.cpp" />
     <ClCompile Include="印章.cpp" />
     <ClCompile Include="双端链表.cpp" />
     <ClCompile Include="栈回溯法迷宫.cpp" />
