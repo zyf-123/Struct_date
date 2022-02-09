@@ -170,10 +170,12 @@
     <ClCompile Include="lq查找整数.cpp" />
     <ClCompile Include="lq特殊回文数.cpp" />
     <ClCompile Include="lq特殊的数字.cpp" />
+    <ClCompile Include="sort.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="tt.cpp" />
     <ClCompile Include="交换ab变量的三种方法.cpp" />
     <ClCompile Include="yhj.cpp" />
+    <ClCompile Include="企业链表.cpp" />
     <ClCompile Include="冒泡(lq数组排序).cpp" />
     <ClCompile Include="分割方格.cpp" />
     <ClCompile Include="动态数组.cpp" />
