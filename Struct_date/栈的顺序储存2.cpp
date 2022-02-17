@@ -94,11 +94,11 @@ int main(void)
 	Seqstack* stack = Init_Seqstack();
 	//Êý¾ÝÈëÕ»
 	Person p1, p2, p3, p4, p5;
-	strcpy(p1.name, "z");
-	strcpy(p2.name, "y");
-	strcpy(p3.name, "f");
-	strcpy(p4.name, "zz");
-	strcpy(p5.name, "zyf");
+	strcpy(p1.name, "aaa");
+	strcpy(p2.name, "bbb");
+	strcpy(p3.name, "ccc");
+	strcpy(p4.name, "ddd");
+	strcpy(p5.name, "eee");
 	Push_Seqstack(stack, &p1);
 	Push_Seqstack(stack, &p2);
 	Push_Seqstack(stack, &p3);
