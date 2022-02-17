@@ -187,7 +187,9 @@
     <ClCompile Include="找素数.cpp" />
     <ClCompile Include="承压计算.cpp" />
     <ClCompile Include=".cpp" />
+    <ClCompile Include="循环单链表.cpp" />
     <ClCompile Include="素数数列.cpp" />
+    <ClCompile Include="约瑟夫问题.cpp" />
     <ClCompile Include="线性表转置（顺序表和链表结构）.cpp" />
     <ClCompile Include="购物单.cpp" />
     <ClCompile Include="银行家算法.cpp" />

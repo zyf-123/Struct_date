@@ -207,6 +207,12 @@
     <ClCompile Include="企业链表.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="循环单链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="约瑟夫问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
