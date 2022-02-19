@@ -1,3 +1,4 @@
+#if 0;
 #include<iostream>
 #pragma warning (disable:4996)
 #define SEQSTACK_TRUE 1
@@ -120,3 +121,4 @@ int main(void)
 
 	return 0;
 }
+#endif

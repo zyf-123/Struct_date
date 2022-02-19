@@ -194,6 +194,7 @@
     <ClCompile Include="线性表转置（顺序表和链表结构）.cpp" />
     <ClCompile Include="购物单.cpp" />
     <ClCompile Include="银行家算法.cpp" />
+    <ClCompile Include="链栈.cpp" />
     <ClCompile Include="链表队列.cpp" />
     <ClCompile Include="顺序栈.cpp" />
     <ClCompile Include="链表.cpp" />
