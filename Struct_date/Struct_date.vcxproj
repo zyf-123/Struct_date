@@ -182,6 +182,7 @@
     <ClCompile Include="单项链表再次实现.cpp" />
     <ClCompile Include="印章.cpp" />
     <ClCompile Include="双端链表.cpp" />
+    <ClCompile Include="就近匹配.cpp" />
     <ClCompile Include="测试使用.cpp" />
     <ClCompile Include="栈回溯法迷宫.cpp" />
     <ClCompile Include="栈的括号匹配问题.cpp" />
