@@ -219,6 +219,12 @@
     <ClCompile Include="链栈.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="队列的顺序储存.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试使用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
