@@ -1,3 +1,4 @@
+#if 0;
 #include<iostream>
 #pragma warning (disable:4996)
 #define SEQSTACK_TRUE 1
@@ -86,26 +87,81 @@ void Clear_SeqStack(Seqstack* stack)
 }
 typedef struct Mychar
 {
-	char* Paddress;
-	int index;
+	char* Paddress;//字符
+	int index;//标识下位置
 };
 int IsLeft(char c)
 {
 	return c == '(';
-}                        
+}    
+int IsRight(char c)
+{
+	return c == ')';
+}
+Mychar* CreatMychar(char* p,int index)
+{
+	Mychar* mychar = new Mychar;
+	mychar->Paddress = p;
+	mychar->index = index;
+	return mychar;
+}
+void ShowError(char* str, int pos)
+{
+	cout << str << endl;
+	for (int i = 0; i < pos; i++)
+	{
+		cout << " ";
+	}
+	cout << "A";
+}
 int main(void)
 {
-	char* str = (char*)"#include<stdio.h> int main(){int a[4][4]; int (*p)[4];return 0;}";
+	char* str = (char*)"#incl(ude<stdio.h> int main(){int a[4][4]; int (*p)[4];return 0;}";
 	char* p = str;
+	int index = 0;
+	//创建栈 
+	Seqstack* stack = Init_Seqstack();
 	//扫描字符串，如果碰到左括号直接入栈，如果碰到右括号，直接从栈顶弹出括号，
 	// 判断是否左括号，如果是，匹配成功，如果不是，匹配失败
 	while (*p != '\0')
 	{
+		//如果是左括号，直接进栈
+		if (IsLeft(*p))
+		{
+			Push_Seqstack(stack, CreatMychar(p,index));
+		}
+		//如果是右括号，从栈顶弹出元素，判断是否左括号
+		if (IsRight(*p))
+		{
+			if (Size_SeqStack(stack) > 0)
+			{
+				Mychar* mychar = (Mychar*)Top_Seqstack(stack);
+				if (IsLeft(*mychar->Paddress))
+					Pop_Seqstack(stack);
+				delete mychar;
+			}
+			else
+			{
+				cout << "该处右括号没有匹配到左括号" << endl;
+				ShowError(str, index);
+				break;
+			}
+		}
+		p++;
+		index++;
+	}
+	while (Size_SeqStack(stack) > 0)
+	{
+		Mychar* mychar=(Mychar*)Top_Seqstack(stack);
+		cout << "左括号没有匹配的右括号：" << endl;
+		ShowError(str, mychar->index);
+		Pop_Seqstack(stack);
+		delete mychar;
 
 	}
-	//创建栈 
-	Seqstack* stack = Init_Seqstack();
+
 	
 
 	return 0;
 }
+#endif
