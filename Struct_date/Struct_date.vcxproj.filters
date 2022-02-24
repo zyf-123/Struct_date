@@ -228,6 +228,12 @@
     <ClCompile Include="就近匹配.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="中缀表达式转后缀表达式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="后缀表达式的计算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

@@ -173,6 +173,7 @@
     <ClCompile Include="sort.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="tt.cpp" />
+    <ClCompile Include="中缀表达式转后缀表达式.cpp" />
     <ClCompile Include="交换ab变量的三种方法.cpp" />
     <ClCompile Include="yhj.cpp" />
     <ClCompile Include="企业链表.cpp" />
@@ -182,6 +183,7 @@
     <ClCompile Include="单项链表再次实现.cpp" />
     <ClCompile Include="印章.cpp" />
     <ClCompile Include="双端链表.cpp" />
+    <ClCompile Include="后缀表达式的计算.cpp" />
     <ClCompile Include="就近匹配.cpp" />
     <ClCompile Include="测试使用.cpp" />
     <ClCompile Include="栈回溯法迷宫.cpp" />
