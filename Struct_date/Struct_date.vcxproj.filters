@@ -234,6 +234,18 @@
     <ClCompile Include="后缀表达式的计算.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="二叉树的遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="叶子节点数目.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="树的高度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树的拷贝.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
