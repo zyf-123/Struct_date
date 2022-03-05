@@ -180,6 +180,8 @@
     <ClCompile Include="yhj.cpp" />
     <ClCompile Include="企业链表.cpp" />
     <ClCompile Include="冒泡(lq数组排序).cpp" />
+    <ClCompile Include="冒泡.cpp" />
+    <ClCompile Include="冒泡的改进版本.cpp" />
     <ClCompile Include="分割方格.cpp" />
     <ClCompile Include="动态数组.cpp" />
     <ClCompile Include="单项链表再次实现.cpp" />
@@ -188,6 +190,9 @@
     <ClCompile Include="叶子节点数目.cpp" />
     <ClCompile Include="后缀表达式的计算.cpp" />
     <ClCompile Include="就近匹配.cpp" />
+    <ClCompile Include="希尔排序.cpp" />
+    <ClCompile Include="快速排序.cpp" />
+    <ClCompile Include="插入排序.cpp" />
     <ClCompile Include="树的高度.cpp" />
     <ClCompile Include="测试使用.cpp" />
     <ClCompile Include="栈回溯法迷宫.cpp" />
@@ -201,10 +206,12 @@
     <ClCompile Include="约瑟夫问题.cpp" />
     <ClCompile Include="线性表转置（顺序表和链表结构）.cpp" />
     <ClCompile Include="购物单.cpp" />
+    <ClCompile Include="选择排序.cpp" />
     <ClCompile Include="银行家算法.cpp" />
     <ClCompile Include="链栈.cpp" />
     <ClCompile Include="链表队列.cpp" />
     <ClCompile Include="队列的顺序储存.cpp" />
+    <ClCompile Include="非递归二叉树.cpp" />
     <ClCompile Include="顺序栈.cpp" />
     <ClCompile Include="链表.cpp" />
     <ClCompile Include="顺序表插入.cpp" />
