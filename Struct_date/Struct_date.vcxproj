@@ -189,8 +189,10 @@
     <ClCompile Include="双端链表.cpp" />
     <ClCompile Include="叶子节点数目.cpp" />
     <ClCompile Include="后缀表达式的计算.cpp" />
+    <ClCompile Include="堆排序.cpp" />
     <ClCompile Include="就近匹配.cpp" />
     <ClCompile Include="希尔排序.cpp" />
+    <ClCompile Include="归并排序.cpp" />
     <ClCompile Include="快速排序.cpp" />
     <ClCompile Include="插入排序.cpp" />
     <ClCompile Include="树的高度.cpp" />
