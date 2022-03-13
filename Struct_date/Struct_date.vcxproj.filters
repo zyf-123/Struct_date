@@ -31,6 +31,9 @@
     <Filter Include="源文件\练习\蓝桥杯\训练题">
       <UniqueIdentifier>{c5bd02f5-ff41-4c7e-af9a-ef3de992c348}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\练习\蓝桥杯\云课">
+      <UniqueIdentifier>{402194d2-2598-4e42-a2cd-b77db34b5d4d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="链表.cpp">
@@ -272,6 +275,9 @@
     </ClCompile>
     <ClCompile Include="堆排序.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rgb排序.cpp">
+      <Filter>源文件\练习\蓝桥杯\云课</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

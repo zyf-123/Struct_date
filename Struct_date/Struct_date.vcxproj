@@ -170,6 +170,7 @@
     <ClCompile Include="lq查找整数.cpp" />
     <ClCompile Include="lq特殊回文数.cpp" />
     <ClCompile Include="lq特殊的数字.cpp" />
+    <ClCompile Include="rgb排序.cpp" />
     <ClCompile Include="sort.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="tt.cpp" />
